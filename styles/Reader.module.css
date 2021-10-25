@@ -1,0 +1,70 @@
+.rAvatar {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1rem;
+  flex-direction: column;
+  background: url('../public/white-blue-batik.jpg') no-repeat;
+  background-size: cover;
+}
+
+.subRAvatar {
+  display: flex;
+  justify-content: center;
+  padding: 0.2em;
+}
+
+.subRAvatar img {
+  border: 0px transparent rgba(0,0,0,0.74);
+  border-radius: 50%;
+}
+
+.rTitle, .rDescription {
+  display: flex;
+  justify-content: center;
+}
+
+.rTitle {
+  font-size: 48px;
+  font-weight: 400;
+}
+
+.rYasiinTitle {
+  font-size: 36px;
+}
+
+.rYasiinRevelation {
+  font-size: 16px;
+  font-variant: small-caps;
+}
+
+.rYasiinCount {
+  font-size: 36px;
+  text-align: right;
+}
+
+.rYasiinDescription {
+  margin-top: 12px;
+  font-variant: small-caps;
+}
+
+.textArab {
+  font-size: 64px;
+  text-align: right;
+}
+
+.textBaca {
+  font-style: italic;
+}
+
+.textArtian {
+  font-size: 10px;
+}
+
+.footer {
+  margin-top: 128px;
+  margin-bottom: 128px;
+  font-size: 24px;
+  text-align: center;
+}
